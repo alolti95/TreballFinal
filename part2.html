@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+        <title>Website Desarrolador</title>
+        
+        <style>
+            #boto{
+                background-color:#2E64FE;
+                position:fixed;
+                bottom:10px;
+                right:90px;
+                width:80px;
+                height:80px;
+                border-radius:40px;  
+                text-align: center;
+                vertical-align:middle;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                flex-direction: column;
+                font-size: 50px;
+            }
+            #btnAbrirMapa{
+                background-color: #2E64FE;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+                border-radius:5px;
+                width: 360px;
+                border-style: solid;
+                border-color: #1C1C1C #1C1C1C;
+            }
+            #btnCerrar{
+                background-color: #B40404;
+                color: white;
+                padding: 10px 20px;
+                text-align: center;
+                display: inline-block;
+                font-size: 16px;
+                border-radius:5px;
+                width: 360px;
+                border-style: solid;
+                border-color: #1C1C1C #1C1C1C;
+            }
+            #Contacto{
+                background-color: #2E64FE;
+                color: black;  
+                text-align: center;
+            }
+            #Contactos{
+                background-color: #2E64FE;
+                color: black;  
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="app">
+            
+            <div data-role="page" id="contact">
+               <div data-role="content">
+                   
+                   <div id="Contacto">
+                    <h3>Mas -> Santa Claus</h3>
+                   </div>
+                   
+                   <h3>Santa Claus</h3>
+                    <ul>
+                        <b>Telf:</b> 93.780.75.17<br>
+                        <b>Dirección:</b> Torrent del Batlle, 7<br>
+                        <b>C.P:</b> Terrassa- 08225<br>
+                        <b>Mail:</b> chiqui@chiquiweb.com                  
+                    </ul>
+                   
+                    <div class="map">
+                        <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1492.5023741376167!2d1.995474233860564!3d41.56914183609803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a492a498d7ba21%3A0xc698f1cc3628032a!2sCarrer+de+Torrent+del+Batlle%2C+08225+Terrassa%2C+Barcelona!5e0!3m2!1ses!2ses!4v1488791571435" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></center>
+                    </div>
+                   
+                   <center><div id="btnAbrirMapa">
+                        Abrir en Maps
+                   </div></center>
+                   <br>
+                   <center><div id="btnCerrar">
+                        <a href="prova.html">Cerrar</a>
+                   </div></center>
+                   
+               </div>                          
+            </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
